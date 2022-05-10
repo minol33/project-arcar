@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+caption {
+	font-size: 18px;
+	font-family: 맑은 고딕;
+	margin-bottom: 15px;
+}
+
+.logo {
+	width: 250px;
+	height: 100px;
+}
+
+td {
+	padding: 3px;
+	border: 1px solid #cccccc;
+	width: 70%;
+	font-size: 12px;
+}
+
+th {
+	width: 30%;
+	height : 30px;
+	padding: 3px;
+	border: 1px solid #cccccc;
+	font-size: 12px;
+}
+
+
+.user-info-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 200px;
+	flex-direction: column;
+	margin-top: 130px;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.info-table {
+	width: 80%;
+	max-width: 900px;
+	position: relative;
+	margin-top : 30px;
+}
+
+.info-table-margin {
+	margin-top : 20px;
+}
+
+.user-btn {
+	position: absolute;
+	margin-top : 30px;
+	left: 40%;
+}
+
+.user-btn button{
+	width: 70px;
+	color: #fff;
+	border: none;
+	background: #0BB8FF;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 4px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	.user-info-container {
+		margin-top : 80px;
+	}
+	.info-table {
+		margin-top : 10px;
+	}
+	
+}
+
+
+

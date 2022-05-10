@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0px;
+	word-break: keep-all;
+}
+
+.head {
+	width: 100%;
+	height: 250px;
+	background-image: url("/img/arcar4.jpg");
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 0;
+}
+
+.head:before {
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	left: 0;
+	top: 0;
+	content: "";
+	position: absolute;
+}
+
+.head-title {
+	position: absolute;
+	color: white;
+	bottom: 50px;
+}
+
+.head p {
+	font-size: 20px;
+}
+
+.reser-container {
+	width: 100%;
+	padding-bottom: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.reser-table {
+	margin-top: 150px;
+	width: 60%;
+	max-width: 650px;
+	background: #DEEBF7;
+	padding: 30px;
+}
+
+.reser-table tr, td {
+	border-bottom: 1px solid white;
+	width: 35%;
+	padding: 10px;
+}
+
+.reser-table-title th {
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+.reser-table img {
+	width: 100%;
+	min-width: 120px;
+	height: auto;
+}
+
+.avail-btn {
+	border: 0.5px solid #00b8ff;
+	color: white;
+	background: #00b8ff;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 10px;
+	transition: 0.3s;
+}
+
+.avail-btn:hover {
+	background-color: #009fff;
+	cursor: pointer;
+}
+
+.unavail-btn {
+	border: 0.5px solid #808080;
+	color: white;
+	background: #808080;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 10px;
+	transition: 0.3s;
+}
+
+.unavail-btn:hover {
+	background-color: #606060;
+	cursor: pointer;
+}
+
+.reser-car-name {
+	color: #4374D9;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+
+.review-link {
+	text-align: center;
+ 	margin-top: 20px;
+}
+
+/*-----------------reserDateWrite------------------*/
+.date-container {
+	width: 100%;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.date-table {
+	width: 60%;
+	max-width: 650px;
+	height: auto;
+	background: #DEEBF7;
+	padding: 30px;
+	position: relative;
+}
+
+.date-table td {
+	width: 50%;
+	padding-top: 20px;
+	border: none;
+}
+
+.date-table-title th {
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+.car-date-input {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.car-date-input p {
+	text-align: left;
+	margin: 2px;
+}
+
+.car-date-img {
+	text-align: center;
+}
+
+.car-date-img img {
+	width: 100%;
+	min-width: 120px;
+	height: auto;
+}
+
+.car-date-img p {
+	margin : 5px;
+}
+
+.date-btn {
+	position: absolute;
+	right: 70px;
+	bottom: 30px;
+	background-color: transparent;
+}
+
+.date-reser-btn {
+	width: 60px;
+	color: white;
+	background: #00b8ff;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 0.3s;
+	border: none;
+}
+
+.date-reser-btn:hover {
+	background-color: #009fff;
+	cursor: pointer;
+}
+
+.date-cancel-btn {
+	width: 60px;
+	color: white;
+	background: #ff4848;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 0.3s;
+	border: none;
+}
+
+.date-cancel-btn:hover {
+	background-color: #ff0000;
+	cursor: pointer;
+}
+
+/*-----------------resStatusAdmin------------------*/
+.reser-admin-table {
+	margin-top: 150px;
+	width: 60%;
+	max-width: 650px;
+	background: #DEEBF7;
+	padding: 30px;
+}
+
+.reser-admin-table tr, td {
+	border-bottom: 1px solid white;
+	padding: 10px;
+	text-align: center;
+}
+
+.reser-admin-table table {
+	table-layout: auto;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.cancel-btn {
+	width: 40px;
+	border: none;
+	color: white;
+	background: #ff4848;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+	transition: 0.3s;
+}
+
+.cancel-btn:hover {
+	background-color: #ff0000;
+	cursor: pointer;
+}
+
+.status-th {
+	border-bottom: 1px solid #00b8ff;
+}
+
+.status-img p {
+	font-size: 12px;
+	margin: 1px;
+	padding: 5px;
+}
+
+.status-img img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.avail-btn {
+		font-size: 13px;
+	}
+	.unavail-btn {
+		font-size: 13px;
+	}
+	.car-detail {
+	display: none;
+	}
+	.reser-table {
+	margin-top: 100px;
+	}
+	
+	.date-container {
+	margin-top: 100px;
+	}
+	
+	.reser-admin-table {
+	margin-top: 100px;
+	}
+}
