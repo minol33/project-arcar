@@ -11,6 +11,12 @@
 - 반응형 웹페이지
 - 차량 대여 서비스 구현
 
+
+< PC ><br>
+<img width="300" alt="스크린샷 2022-05-19 오후 4 38 34" src="https://user-images.githubusercontent.com/88490416/173757148-dde9a3c7-e0e2-42bf-851d-9522d427405c.png"><br>
+< Mobile ><br>
+<img width="150" alt="스크린샷 2022-05-19 오후 4 45 11" src="https://user-images.githubusercontent.com/88490416/173757160-f83ece6d-1dd8-4735-bd65-e38a3e9da364.png">
+
 # 회원관리
 - 회원가입 및 로그인 화면
   - input 값 유효성 체크 및 중복 확인
