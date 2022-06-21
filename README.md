@@ -20,7 +20,7 @@
 # 회원관리
 - 회원가입 및 로그인 화면
   - input 값 유효성 체크 및 중복 확인
-  - Session을 이용한 로그인 쿠키 생성
+  - 세션을 이용한 로그인 쿠키 생성
   - 로그인 및 로그아웃(세션파괴)
 <br><img width="300" alt="스크린샷 2022-06-15 오후 3 00 48" src="https://user-images.githubusercontent.com/88490416/173757094-c1d302df-41a1-4b52-98ca-78db0faa6ad4.png">  <img width="300" alt="스크린샷 2022-06-15 오후 3 00 56" src="https://user-images.githubusercontent.com/88490416/173757103-93852dda-b42b-43bf-97d3-fb20f6e52948.png">
 
